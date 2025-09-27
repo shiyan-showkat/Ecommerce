@@ -1,0 +1,73 @@
+[
+    {
+     "id":1,
+     "name":"Beef burger",
+
+      "price":"$200",
+       "image":"burger.png"
+    },
+    {
+        
+        "id":"2",
+         "name":"Veggie pizza",
+
+      "price":"$10.99",
+       "image":"pizza.png"
+
+    },
+      {
+        
+        "id":"3",
+         "name":"Fried chicken",
+
+      "price":"$13.49",
+       "image":"fried-chicken.png"
+
+    },
+         {
+        
+        "id":"4",
+         "name":"Chicken Roll",
+
+      "price":"$13.49",
+       "image":"chicken-roll.png"
+
+    },
+         {
+        
+        "id":"5",
+         "name":"Sub sandwich",
+
+      "price":"$6.99",
+       "image":"sandwich.png"
+
+    },
+             {
+        
+        "id":"6",
+         "name":"Chicken lasagna",
+
+      "price":"$16.45",
+       "image":"lasagna.png"
+
+             },
+
+        
+    {
+    "id":"7",
+      "name":"Italian spachetti",
+      "price":"$7.65",
+        "image":"spaghetti.png"
+      
+
+    },
+      {
+    "id":"8",
+      "name":"Spring Roll",
+      "price":"$9.31",
+        "image":"spring-roll.png"
+      
+
+    }                
+
+]
