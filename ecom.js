@@ -356,10 +356,12 @@ const renderCart = () => {
 
 // -------------------- Fetch products --------------------
 const initapp = () => {
-  fetch("product.json")
+  fetch("http://localhost:9991/products")
     .then((response) => response.json())
     .then((data) => {
       productlist = data;
+      console.log(productlist);
+
       renderProducts();
       renderCart();
     });
@@ -373,7 +375,7 @@ const renderProducts = () => {
     order.classList.add("order-card");
     order.innerHTML = `
       <div class="card-image">
-        <img src="${product.image}">
+        <img src="http://localhost:9991/${product.image}">
       </div>
       <h4>${product.name}</h4>
       <h4 class="price">${product.price}</h4>
